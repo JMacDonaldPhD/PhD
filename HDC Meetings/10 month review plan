@@ -1,0 +1,55 @@
+
+Writing for 10 month review:
+
+INTRODUCTION:
+
+	Aim of the PhD
+
+	What this involes/What are the key steps
+	
+	What is an Infectious Disease Epidemiology/Epidemics/Endemics etc.?
+
+	GENERAL:
+
+	What are the challenges in collecting Infectious Disease data?
+
+	Breifly, how can we go about analysing this data and what are the limitations?
+
+	SPECIFIC:
+
+	What is anti-microbial resistance, how does it spread and how is it cured or prevented from spreading?
+
+	What are the challenges in collecting the data needed to make inference on this infectious process?
+
+MODELLING/ANALYSING INFECTIOUS DISEASES IN STATISTICS:
+
+	OBSERVING EPIDEMIC IN CONTINUOUS TIME (HOMOGENEOUS):
+
+	Observation Process (Missing Infection Times)
+
+	Markov Process (Poisson Process)
+	
+	Paired Infection Times
+
+	ABC, MCMC (Centered, Non-centered, Partially Non-centered).
+
+	Limitations.
+
+	OBSERVING EPIDEMICS IN DISCRETE TIME (HOMOGENEOUS):
+
+	Observation Process (Panel Data)
+
+	Hypergeometric Distribution of Panel Data (Assuming Independence)
+
+	Pseudo-Marginal MCMC
+
+	Forward Simulation EBC/MCMC
+
+	Extending to Endemics, Heterogenous populations (Household Model)
+
+
+
+	
+
+	
+	

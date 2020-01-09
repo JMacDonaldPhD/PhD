@@ -1,0 +1,38 @@
+
+STATISTICAL MODELLING OF AN EPIDEMIC SIR MODEL:
+
+Poisson Processes
+General Birth/Death Processes
+
+Markov Representation (Population Level)
+Paired Infection and Removal times representation (Individual level)
+
+
+POISSON PROCESS (brief):
+
+Definition of a poisson process:
+
+1. Stationary point process, meaning the number of events which occur in two disjoint time periods are equal in distribution. 
+
+2. Independent increments
+
+3. The number of events n which occur in an interval [t, t+s) follows a Poisson distribution. 
+
+SPECIFICS CAN BE FOUND IN (TEXT BOOKS)
+
+The time in between events occuring is Exponential with rate lambda
+
+
+We can model an Epidemic using a Poisson Process,
+
+The total rate of events will be the sum of total infection rate X(t)*Y(t)*beta and the total removal rate Y(t)*gamma
+
+lambda(t) = X(t)*Y(t)*beta + Y(t)*gamma
+
+This creates an inhomogeneous Poisson process with respect to time as the rate of events varies over time as the population dynamics change.
+
+Events change the value of lambda(t), therefore increments are no longer independent.
+
+
+
+

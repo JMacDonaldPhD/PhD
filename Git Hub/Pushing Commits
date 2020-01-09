@@ -1,0 +1,8 @@
+Pushing commits via Terminal:
+
+1. Change directory to where cloned repository is (e.g cd Documents/PhD/Epidemics)
+
+2. Push commits to respective branch at the origin (online repository) 
+   (e.g git push origin refs/heads/branch)
+
+3. Wait 

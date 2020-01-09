@@ -1,0 +1,98 @@
+
+
+====================================================================================================
+
+INTRODUCTION:
+
+Aim of PhD: 
+
+Develop an technique which take observations of an epidemic/endemic over a period of time (and to an extent space) and makes inference on the infectious and recovery processes (or in general, the process of transisitioning from one state to another).
+
+Make online inference on the epidemic as more data comes in. 
+
+Be able to tell whether the current observation process is sufficient to make correct inference on the epidemic (i.e are observations frequent enough, is the sample size big enough to extrapolate inference to the whole population).
+
+--------------------------------------------------------------------------------------------------
+
+Key Steps:
+
+Consider a range of different representations of Epidemics which will give a variety of ways to make inference on epidemic data.
+
+Consider what data will be available when an Epidemic is observed, this will change the technique which will be most appropriate. 
+
+Deciding on the best way to measure how well a chosen technique is working. 
+
+--------------------------------------------------------------------------------------------------
+
+What is Infectious Disease Epidemiology and difference from common epidemiology:
+
+SOURCE 
+
+First line of Oxford Specialist Infectious Disease Epidemiology,
+
+Epidemiology provides the tools to understand why and how infections spread and how they might be prevented or contained.
+
+Google:
+
+An Epidemic is a widespread occurrence of an infectious disease in a community at a particular time.
+
+--------------------------------------------------------------------------------------------------
+
+Challenges in collecting Infectious Disease Data?
+
+MISSING DATA
+
+Time issue:
+Infectious procces occurs temporally, therefore observation of the process can be hard to capture. 
+
+Transition Time Issue:
+
+For nearly all situations there is some aspect of the epidemic which you cannont observe.
+
+An example of this is when you can't observe exactly when an individual becomes infected, the infection time.
+
+This creates a problem for Epidemic models which rely on infection times of individuals. 
+
+May be able to get some information by recording the time at which we first knew about the infection (i.e the notification of infection time).
+
+Depending on whether the way we choose to model the epidemic temporally (Continuous/Discrete Time)
+the way we observe the data may make it impossible to make inference. Therefore the model chosen should match how the data is (or is planned to be) observed
+
+Population Issue:
+
+For large scale epidemics, it may be economically and time-wise not possible to observe the whole population. Therefore, we would have to take this into account when making inference. This will be one of the main focuses of this PhD.
+
+------------------------------------------------------------------------------------
+
+Issues Specific to AMR in Uganda and Malawi:
+
+Bad Hygiene, AMR bacteria may be transferred through fecal means.
+
+Testing for AMR,
+
+How big a sample can you observe? 
+How often can you sample?
+
+The availability of money for collecting data limits the frequency and size of samples per observation.
+
+Therefore, a inference method which can make adequate inference from partial observations which are observed less frequently is required.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+

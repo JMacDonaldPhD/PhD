@@ -1,0 +1,27 @@
+
+#' Spatial and Household elements of Epidemic
+
+# ==== Simple ====
+Start with NxM grid with each unit of grid pertaining to one person
+
+Subjects in units which are closer to a given subject have a stronger force of infection, and are therefore more likely to pass infection (if infectious).
+
+# ==== Household ====
+
+Each Unit holds a household which contains h subjects
+
+Force of infection between subjects which reside in the same household is significantly higher
+
+Same spatially varying force of infection
+
+# ==== Social Network ====
+
+Schools, Places of work, Hospitals
+
+Agent-based modelling?
+
+
+
+
+
+

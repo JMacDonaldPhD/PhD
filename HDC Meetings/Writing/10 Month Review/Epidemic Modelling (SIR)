@@ -1,0 +1,60 @@
+
+EPIDEMIC MODELLING 
+
+
+N := Size of the closed population
+
+X(t) := Number of individuals who are susceptible to becoming infected at time t
+
+Y(t) := Number of individuals who are infected at time t
+
+Z(t) := Number of individuals who are removed at time t
+
+beta := Infectious Process Parameter
+
+gamma := Removal Process Parameter
+
+(Homogeneous) SIR Model;
+
+   beta     gamma
+S  --->  I  ---->  R
+
+Infectious Process, which occurs at a rate based on parameter beta the number of Infectives
+
+Removal Process, occurs at rate gamma per Infective
+
+This process is homoeneous in the way that beta and gamma do not vary with time and space.  
+
+An infectious process will begin with an initial infective, who will have aquired infection from another source (i.e non-human means or an individual outside the closed population). An Epidemic will carry on until there is no infectives remaining and hence infection can no longer be passed to other individuals 
+
+Assumptions:
+
+* There is 'a' initial infectives
+
+* Epidemic takes place within a closed population i.e no immigration/emigration, birth/death.
+
+* Infection is passed from Infectious individuals (those who are infected) to susceptible individuals. 
+
+IN GENERAL, AN INFECTED INDIVIDUAL IS NOT NESSECARILLY INFECTIOUS. There may be a period where an infected individual is not infectious.
+
+* An individual remains infectious for a period of time (dependent on rate gamma) after ehich they are then removed. This means they can no longer become infected and therefore do not pass infection to suscepibles.
+
+
+Therefore the epidemic has one steady state, no infectives remaining Y(t) = 0, X(t) + Z(t) = N
+
+
+MECHANISMS OF (HOMOGENEOUS) SIR MODEL:
+
+Infectious individuals exert infectious pressure onto susceptible individuals. More specifically, a single infectious individual exerts infectious pressure beta onto a susceptible individual, regardless of time and the position of the two individuals in space. Therefore, the total infectious pressure exerted onto a single susceptible is Y(t)*beta. The infection rate of a single individual depends on the number of infected at time t, hence infection rate for an individual is time dependent. This can be seen asnthe rate at which a susceptible individual transitions from being susceptible to infected. Therefore, the total rate at which the Susceptibles transition to Infected is X(t)*Y(t)*beta.
+
+Infectious individuals remain infectious for a period of time governed by the removal rate gamma. Rate of removal at individual level does not vary over time. The total rate of removal at population level is therefore Y(t)*gamma.
+
+The evolution of an epidemic can be modelled deterministically. This is easily done by constructing differential equations, based on the rate of infection and removal described above, paired with the initial state of the population (X(0) + Y(0) + Z(0) = N, Z(0) = 0, Y(0) = a ====> Y(0) = a, X(0) = N - a). However, there are many texts that have covered this case in detail INSERT TEXTS and the focus of this project will be statistical inference based.
+
+
+
+
+
+
+
+
